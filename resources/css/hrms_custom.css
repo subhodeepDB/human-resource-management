@@ -1,0 +1,1079 @@
+.fade.in{ opacity: 1 !important}
+.modal-backdrop{background: rgba(0,0,0,0.7) }
+table.dataTable thead .sorting_desc:after { content: "\2193"; }
+table.dataTable thead .sorting_asc:after,table.dataTable thead .sorting:after {  content: "\2193";right: 0.5em; } 
+.main-footer { padding: 5px 1rem;} 
+.table-striped2 tbody tr:nth-of-type(odd) { background-color: #afd7ff88;}
+.table-striped2 tbody tr a{color: #000;}
+.new-header{  background: #1592a5; color: #fff; }
+.new-header .btn-tool { background: 0 0; color: #ffffff; }
+table#example1 { font-size: 12px; }
+/*---- 20-01-2021 New added css ----*/
+.table td{ padding: .4rem; }
+.table th{ padding: .5rem; background-color: #ddd; }
+.btn-group-sm>.btn, .btn-sm { padding: 4px 5px; font-size: 0.8rem; line-height: 1; border-radius: .2rem; }
+
+/*-----  21-01-2021 Added by JAYEETA ------*/
+.modal.fade .modal-dialog { transform: none!important; }
+/*.filter-r { padding: 0px 0px 11px 0px; }
+*/
+/*----- 03-02-2021 Added by JAYEETA ------*/
+.drop_user_name{ display: flex; padding: 20px; }
+.user_icon_div{ height: 41px;  width: 51px;  line-height: 56px; background: #e9ecef; color: #333;  border-radius: 100%; text-align: center;  margin-top: 3%; }
+.user_icon_div h4{ margin-top: 17%; }
+.drop_user_name span{ text-align: left !important; }
+.drop_user_name span h6{ margin: 0!important; }
+.dropdown-menu-lg {  min-width: max-content !important; }
+.marital_status_div{ display: flex; justify-content: space-between; }
+.marital_status_div label{ font-weight: 400!important; }
+.marital_status_div input { margin-top: 1%; }
+.datepicker.dropdown-menu{ font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important; }
+.sidebar_user_icon{  height: 40px!important;   width: 40px!important; line-height: 40px; }
+.sidebar_user_icon h4{ width: 40px; }
+.user-panel{  padding: 0px 3px; }
+.user-panel .info{  margin: auto 0; }
+
+/*------ 03-02-2021 Added by Souvik Da ------*/
+.dropdown.bootstrap-select > .dropdown-toggle.bs-placeholder{background: none !important;border: 1px solid #ced4da !important;}
+
+/*---- 08-02-2021 Added By Subhodeep Bhattacharjee for AJAX loader ----*/
+#loaderImg{ position: fixed; width:100%; height: 100%; left:0;right:0;top:0;bottom:0; background-color: rgba(255,255,255,0.8); margin: 0 auto; overflow: hidden; z-index: 99; display:flex; align-items:center; text-align:center; }
+#loaderImg img { margin:0 auto;}
+
+
+/*---- Media Query For 320 To 480 Device ----*/
+@media (min-width: 320px) and (max-width: 480px){
+    .marital_status_div { flex-direction: column; }
+}
+
+/*jayeeta19-22021*/
+
+.table th, .table td{
+    font-size: 12px!important;
+}
+
+#add-more,.add-more{
+    color: #fff;
+    background-color: #28a745;
+    border: none!important;
+    box-shadow: none!important;
+    padding: 7px 13px;
+    margin-top: 21%;
+    width: 100%;
+}
+
+.btn-add-skill-remove{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    box-shadow: none;
+    height: 39px!important;
+    border-radius: none!important;
+    margin-top: .5%;
+}
+
+
+@media (min-width: 1500px) and (max-width: 2000px){
+    .add-more {
+       margin-top: 11%!important;
+    }
+
+}
+@media (min-width: 1301px) and (max-width: 1499px){
+    #calendar-outer .week-name-title li {
+    padding: 10px !important;
+    flex: 1 0 0%!important;
+    }
+    .week-day-cell li {
+    flex: 1 0 13%!important;
+    }
+    .add-more {
+       margin-top: 16%!important;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+    .add-more {
+       margin-top:18%!important;
+    }
+    #calendar-outer .week-name-title li {
+    padding: 10px !important;
+    flex: 1 0 0%!important;
+    }
+    .week-day-cell li {
+    flex: 1 0 13%!important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .add-more {
+       margin-top:25%!important;
+    }
+   #calendar-outer .week-name-title li {
+    padding: 10px 6px!important;
+    flex: 1 0 0%!important;
+    }
+    .week-day-cell li {
+    flex: 1 0 13%!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  #calendar-outer .week-name-title li {
+    padding: 10px 3px!important;
+    flex: 1 0 0%!important;
+    }
+    .week-day-cell li {
+    flex: 1 0 13%!important;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px){
+    #calendar-outer .week-name-title li {
+        padding: 10px 15px!important;
+        flex: 1 0 0%!important;
+    }
+    .week-day-cell li {
+        flex: 1 0 13%!important;
+    }
+    .add-more {
+        color: #fff;
+        background-color: #28a745;
+        border: none!important;
+        box-shadow: none!important;
+        padding: 7px 13px;
+        margin-top: 31%;
+        width: 100%;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px){
+    #calendar-outer .week-name-title li {
+        padding: 10px 6px!important;
+        flex: 1 0 0%!important;
+    }
+    .week-day-cell li {
+        flex: 1 0 13%!important;
+    }
+    .card:last-child {
+        margin-bottom: 80px;
+    }
+}
+.navbar {
+    padding: 2px .5rem;
+}
+.content-header {
+    padding: 4px .5rem 0;
+}
+
+/*.card-body{
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}*/
+.main-footer{
+    position: fixed;
+    bottom: 0;
+}
+.card-header {
+    padding: 6px 1.25rem;
+}
+.th_color1{
+    background: #b0d7f3!important;
+}
+.th_color2{
+    background: #e5ffed!important;
+}
+.th_color3{
+    background: #fbffd3!important;
+}
+.th_color4{
+    background:#c6efff!important;
+}
+.th_color5{
+    background: #dfe2ff!important;
+}
+.th_color6{
+    background: #f9e2e1!important;
+}
+.th_color7{
+    background: #f2e9ff!important;
+}
+.th_color8{
+    background: #d7ffff!important;
+}
+.th_color9{
+    background: #ffecb9!important;
+}
+
+.requirement_table td{
+    border: none;
+}
+
+/*---- |Changes By Soubhik Bhattacharjee | Performance Report CSS ----*/
+.requirement_table td:nth-child(1), .requirement_table td:nth-child(4), .requirement_table  td:nth-child(5), .requirement_table td:nth-child(7),
+.requirement_table  td:nth-child(9), .requirement_table  td:nth-child(11), .requirement_table td:nth-child(15), .requirement_table td:nth-child(17), 
+.requirement_table td:nth-child(18) {
+    border-right: 1px solid #dee2e6;
+}
+
+.card-primary .card-body{
+   /* max-height: 76vh;*/
+    /*overflow-x: hidden;
+    overflow-y: auto;*/
+    padding: 8px 20px 5px;
+}
+.interview_calender_card .card-body{
+    height: 75vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 8px 20px 20px;
+}
+.card-body .form-group {
+    margin-bottom: 5px;
+} 
+.sidebar-mini.sidebar-collapse .main-sidebar{
+    width: 3.9rem!important;
+}
+.sidebar-mini.sidebar-collapse .content-wrapper{
+    margin-left: 3.9rem!important;
+}
+.nav-sidebar>.nav-item {
+    margin-left: -7px;
+}
+.sidebar-mini.sidebar-collapse .main-sidebar:hover {  overflow: hidden; }
+.sidebar-mini.sidebar-collapse .main-sidebar:hover .nav-sidebar .nav-link p{ display: none!important; }
+.content-wrapper:hover .nav-sidebar .nav-link p{ display: none!important; }
+.content:hover .nav-sidebar .nav-link p{ display: none!important; }
+.sidebar-mini.sidebar-collapse .nav-sidebar .nav-link p {
+    margin-left: 38px;
+}
+ .sidebar-mini.sidebar-collapse .main-header {
+    margin-left: 3.9rem!important;
+}
+
+#calendar-outer ul { display: flex; flex-wrap: wrap; }
+
+.breadcrumb-item { color: #333; font-size: 10px; }
+.dataTables_scrollBody {
+    max-height: 100%!important; 
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background: none;
+}
+
+table.table-bordered.dataTable th {
+    vertical-align: middle;
+}
+
+/*#example1 table.table-bordered.dataTable th, table.table-bordered.dataTable td {
+     white-space: nowrap;
+}*/ 
+
+.dataTables_scrollHeadInner{
+    width: 100% !important;
+}
+/*.dataTables_scrollHeadInner table{
+    width: 100% !important;
+}
+.dataTables_scrollBody table{
+    width: 100% !important;
+}*/
+
+/*---- Souvik Bhattacharjee (06-04-2021 10:50 AM) - 1 ----*/
+table{ min-width: 100% !important;}
+.table tbody tr a { color: #000; }
+
+.high-priority{ width: 8px; height: 8px; border-radius: 50%; float: left; margin-top: 6px; margin-right: 7px; background: #ea452ad9; }
+.low-priority{ width: 8px; height: 8px; border-radius: 50%; float: left; margin-top: 6px; margin-right: 7px; background: #21b90e; }
+.medium-priority{ width: 8px; height: 8px; border-radius: 50%; float: left; margin-top: 6px; margin-right: 7px; background: #138df5; }
+.not-applicable-priority{ width: 8px; height: 8px; border-radius: 50%; float: left; margin-top: 6px; margin-right: 7px; background: #ccc; }
+
+.reating{ padding-left: 20px !important; }
+.reating span { margin-left: -15px; margin-top: 5px; }
+.reating-list div{ margin-top: 15px }
+.breadcrumb  .fa-2x { font-size: 16px; }
+.breadcrumb li{ vertical-align: top;    line-height: 20px; }
+
+/*---- Souvik Bhattacharjee (06-04-2021 10:50 AM) - 2 ----*/
+.card-tools .breadcrumb a,.card-header .breadcrumb a { color:#fff; }
+.card-tools .breadcrumb,.card-header .breadcrumb {padding: 0; margin-bottom: 0; line-height: 20px; }
+
+.dash-height .card-body { height: 50vh!important; overflow: auto; }
+.dash-height div.calendar-nav { padding: 9.5px 10px; }
+
+/*---- For All Scroll Bar that Size ----*/
+::-webkit-scrollbar { width: 8px; height: 9.2px; }
+::-webkit-scrollbar-thumb { background-color: #b3b8b9; }
+
+/*---- Jayeeta 08-04-2021 13:02 PM ----*/
+.os-padding nav{ height: 72vh; overflow-x: hidden; overflow-y: scroll; }
+
+
+.sidebar-mini.sidebar-collapse .main-sidebar:hover .brand-image {
+    margin-right: 0!important;
+    margin: none!important;
+    width: 100%;
+    text-align: center;
+}
+
+/*----- CSS Added By Subhodeep Bhattacharjee 30-04-2021 08:20 PM -----*/
+span#dash_total_req_count a:hover,
+span#dash_open_req_count a:hover,
+span#dash_close_req_count a:hover,
+span#dash_joining_count a:hover {
+    background: rgba(0,0,0,.15);
+    color: #fff;
+}
+span#dash_total_req_count a,
+span#dash_open_req_count a,
+span#dash_close_req_count a,
+span#dash_joining_count a {
+    background: rgba(0,0,0,.1);
+    color: #fff;
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+} 
+
+/*----- CSS Added By Subhodeep Bhattacharjee 10-54-2021 11:10 AM -----*/
+.hrms-req-widgets { font-size: 18px; font-weight: 600; }
+
+/*----- CSS Added By Subhodeep Bhattacharjee 16-05-2021 11:39 PM -----*/
+.bgi-selected { color: #64b145; font-weight: 500 !important; }
+.bgi-on-hold { color: #ff9901; font-weight: 500 !important; }
+.bgi-rejected { color: #fb6969; font-weight: 500 !important; }
+.bgi-scheduled { color: #007bff; font-weight: 500 !important; }
+.bgi-resheduled { color: #ce60fb; font-weight: 500 !important; }
+
+
+.badge-skills{ margin: 1px; width:auto !important; background:#33a745; color:#fff}
+.badge-skills:nth-child(even){ background:#3db550;}
+
+.badge.badge-skills {
+    padding: 5px !important;
+}
+
+/* Monthly Report CSS */
+.attendancet_table tbody td{ border: none !important;border-left:1px solid #e1e1e1 !important; }
+.attendancet_table tbody td:nth-child(12),.attendancet_table tbody td:nth-child(13){border-left: none !important;}
+
+/* Daily Report CSS */
+.attendancet_daily_table tbody td{ border: none !important;border-left:1px solid #e1e1e1 !important; }
+.attendancet_daily_table tbody td:nth-child(12){border-right: 1px solid #e1e1e1 !important;}
+.attendancet_daily_table tbody td:nth-child(8),.attendancet_daily_table tbody td:nth-child(9),.attendancet_daily_table tbody td:nth-child(11),.attendancet_daily_table tbody td:nth-child(12){border-left: none !important;}
+
+/* Added By Subhodeep Bhattacharjee || 07-07-2021 16:10 PM */
+.manditory-selection {
+    display : none;
+}
+
+/* Added By Subhodeep Bhattacharjee || 29-07-2021 19:59 PM */
+.popover-title {
+    padding: 8px 14px;
+    margin: 0;
+    font-size: 14px;
+    background-color: #c4bfbf;
+    color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+}
+.popover-content { padding: 9px 14px; }
+
+/* Added By Souvik Bhattacharjee || 30-07-2021 12:05 PM */
+.popover:before{
+    content: ""; 
+    position:absolute; 
+    top: 40%;
+    left: -19px;
+    border-color: transparent #c4bfbf transparent transparent;
+    border-width: 9px;
+    border-style: solid; 
+    z-index: 999;
+}
+.position-td{ position:relative}
+
+/* Added By Souvik Bhattacharjee || 03-08-2021 12:05 PM */
+/* .position-td-box .popover{top:0;width: 200px;left: 58px !important;} */
+
+/* Added By Subhodeep Bhattacharjee || 03-08-2021 12:40 PM */
+.position-td-box .popover{top:0; width: max-content; left: 58px !important;}
+
+/*----| Advance css HRMS  ( Version - 2.0 ) |----*/
+/*---- Created For Jayeeta Das 09-04-2021 11:30 AM  ----*/
+@media (min-width:1400px) and (max-width: 1600px){
+    .dash-height .card-body {
+    height: 378px!important;
+    overflow: auto;
+    }
+}
+
+
+.req_countFilter {
+    border: none;
+}
+.dash-height .table th{
+    font-size: 1rem!important;
+}
+.sidebar-collapse .brand-image{
+padding: 7px 0;
+}
+span.position-txt {
+    font-size: 12px!important;
+    font-weight: 400!important;
+}
+.req-total-position span{
+    font-size: 12px!important;
+    font-weight: 600!important;
+}
+.form-control {
+    border: 1px solid #ebedef;
+}
+.badge {
+    font-size: 12px!important;
+    font-weight: 400!important; 
+    padding: 3px 5px!important;
+    width: 100px;
+}
+.freelancer-frm-submit{
+    margin: 10px 0;
+}
+/*.card-body .btn-primary{
+    margin: 10px 0;
+}*/
+.main-footer {
+    width: 100%;
+    z-index: 999;
+}
+.content-wrapper>.content {
+    padding: 0 .5rem 40px;
+}
+.card-body .form-group {
+    margin-bottom: 14px;
+}
+label:not(.form-check-label):not(.custom-file-label) {
+    font-size: 14px;
+    margin-bottom: 0;
+    width: 100%;
+}
+.form-control {
+    border: none!important;
+    border-bottom: 1px solid #ccc!important;
+    border-radius: 0 !important;
+    background-color: #fff !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+#resourceCreateForm .col-md-6{
+    padding: 0 20px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    border: none!important;
+    border-bottom: 1px solid #ccc!important;
+    border-radius: 0;
+}
+.select2-container--default .select2-selection--single{
+    border: none!important;
+}
+.form-control:disabled, .form-control[readonly]{
+    background: none!important;
+}
+.input-group-text {
+    border: none!important;
+    background: none!important;
+    border-bottom: 1px solid #ccc!important;
+}
+.card-title {
+    font-size: 1rem;
+}
+.select2-container {
+    width: 100%!important;
+}
+.dropdown.bootstrap-select > .dropdown-toggle.bs-placeholder{
+    border: none!important;
+    border-bottom: 1px solid #ccc!important;
+}
+#add-more{
+    margin-top: 24px!important;
+}
+.pdf_up{
+    color: #28a745;
+}
+.table-data-feature .fa-trash-alt{
+    padding-right: 8px;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    float: right;
+}
+.marital_status_div label{
+        width: auto!important;
+}
+.card-footer {
+    padding: 7px 12px;
+ }
+.content-header h1 {
+    font-size: 2rem;
+}
+.dash-height .card-body {
+    height: 378px!important;
+    overflow: auto;
+}
+div.calendar-nav {
+    background-color: #dddddd!important;
+    color: #212529!important;
+}
+#calendar-outer ul li {
+    font-size: 12px!important;
+}
+.form-control {
+    font-size: 14px;
+}
+
+
+@media (min-width:1200px) and (max-width: 1399px){
+    .week-day-cell li {
+        line-height: 26px!important;
+    }
+    .add-more {
+        margin-top: 15%!important;
+    }
+
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+    .week-day-cell li {
+        line-height: 26px!important;
+    }
+    .add-more {
+        margin-top: 19%!important;
+    }
+    .reating-list .col-md-1{
+        font-size: 12px;
+    }
+    .high-priority,.medium-priority,.low-priority,.not-applicable-priority{
+        margin-top: 6px;
+    }
+    .reating-list ul li {
+        padding: 0 3px!important;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 991px){
+.card {
+    margin-bottom: 6rem;
+}
+.week-day-cell li {
+    line-height: 25px!important;
+}
+.reating-list .col-md-1{
+    -ms-flex: 0 0 10.333333%;
+    flex: 0 0 10.333333%;
+    max-width: 10.333333%;
+    font-size: 12px;
+}
+.high-priority,.medium-priority,.low-priority,.not-applicable-priority{
+        margin-top: 6px;
+}
+.form-control {
+    font-size: 12px;
+    padding: 2px;
+}
+.reating-list ul li {
+    font-size: 12px;
+    padding: 0 4px!important
+}
+}
+
+@media (min-width:500px) and (max-width: 767px){
+.card {
+    margin-bottom: 4rem;
+}
+.week-day-cell li {
+    line-height: 25px!important;
+}
+
+.form-control {
+    font-size: 12px;
+    padding: 2px;
+    margin-bottom: 16px;
+}
+#example1_wrapper .row:nth-child(1) .col-sm-12 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.table-responsive{
+    margin-top: 2px!important;
+}
+}
+
+@media (min-width:320px) and (max-width: 499px){
+.card {
+    margin-bottom: 46px!important;
+}
+.week-day-cell li {
+    line-height: 25px!important;
+}
+
+.form-control {
+    font-size: 12px;
+    padding: 2px;
+    margin-bottom: 16px;
+}
+#example1_wrapper .row:nth-child(1) .col-sm-12 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.table-responsive{
+    margin-top: 2px!important;
+}
+.footer_total_sec .col-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.card-header .breadcrumb {
+    float: right;
+}
+}
+
+.dataTables_scrollBody{
+    max-height: 60vh!important;
+    overflow-x: auto!important;
+    overflow-y: auto!important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 6px;
+ }
+
+ div.dataTables_wrapper div.dataTables_paginate {
+    padding-top: 6px;
+}
+
+.badge-information {
+     height: auto!important;
+    font-weight: 400!important; 
+}
+
+.badge-notification{
+    padding: 3px!important; 
+    width: auto!important;
+}
+
+.reating-list ul{
+    list-style: none;
+}
+.reating-list ul li{
+    display: inline-block;
+    padding: 0 9px;
+}
+.hrms-jd p{
+    border-bottom: 1px solid #ccc!important;
+    padding: 9px;
+    font-size: 14px!important;
+}
+
+.sidebar-collapse .brand-image.img-circle {
+    height: 50px;
+}
+
+.fab-icn-cstm{
+    padding-right: 5%;
+}
+
+.card {
+    margin-bottom: 0rem!important;
+}
+.hrms-dashboard .card {
+    margin-bottom: 3rem!important;
+}
+.content-header .breadcrumb {
+    background: 0 0;
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 6px;
+}
+.breadcrumb li {
+    vertical-align: top;
+    line-height: 0px;
+}
+.table-data-feature a{
+    text-decoration: none!important;
+}
+.position_check .form-check{
+    padding-right: 20px;
+}
+#calendar-outer {
+    width: 100%!important;
+}
+.sel_emp{
+    margin-top: 20px!important;
+}
+.select2-results__option {
+    font-size: 13px!important;
+}
+
+@media (min-width:1500px) and (max-width: 1600px){
+    .dash-height .card-body {
+        height:517px!important;
+        overflow: auto; 
+    }
+}
+
+@media screen and (min-device-width: 1601px) and (max-device-width: 1789px) { 
+    #calendar-outer .week-name-title li {
+        padding: 10px 24px!important;
+    }
+}
+@media screen and (min-device-width: 1799px) and (max-device-width: 1899px) {
+    #calendar-outer .week-name-title li {
+        padding: 10px 29px!important;
+    }
+}
+
+@media screen and (min-device-width: 1601px) and (max-device-width: 1899px) { 
+    .dash-height .card-body {
+        height: 435px!important;
+        overflow: auto;
+    }
+}
+
+.hrms-dashboard .main-footer{
+    position: fixed;
+    left: 0!important;
+}
+
+.hrms-dashboard .table tbody tr a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .sidebar-mini.sidebar-collapse .main-sidebar {
+    margin-left: 0;
+    }
+}
+@media (min-width:320px) and (max-width: 767px){
+    .sidebar-mini.sidebar-collapse .main-header {
+    margin-left: 0rem!important;
+    }
+    .sidebar-mini.sidebar-collapse .content-wrapper {
+    margin-left: 0!important;
+    }
+    .sidebar-mini.sidebar-collapse .main-sidebar {
+    width: 0rem!important;
+    }
+    /*---- 23-06-2021 || jayeeta ----ss*/
+    .skill_list{
+        position: relative!important;
+        right: 0!important;
+        float: left!important;
+    }
+    .skill_list .employee_status_label{
+        width: 100%!important;
+    }
+    .skill_list .sel_emp{
+        display: block!important;
+        width: 100%!important;
+    }
+    .filt_btn {
+        margin: 0 20px 0!important;
+    }
+}
+
+
+@media (min-width:320px) and (max-width: 480px){
+    label:not(.form-check-label):not(.custom-file-label) {
+    font-size: 11px;
+    margin-bottom: 0;
+    width: 100%;
+}
+}
+
+.position_check {
+    margin-top: 10px;
+    margin-bottom: 0!important;
+    display: flex!important;
+    font-size: 14px;
+    color:  #495057;
+}
+
+.page-link {
+    padding: 4px .75rem;
+}
+
+.cstm-skill-filter {
+    position: absolute;
+    right: -314px;
+    left: 0;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+/*.calender_show{
+    background: url(img/calender.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    background-size: 14%;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.hrms-dashboard .skills:last-child a{
+    color: #007bff;
+    text-decoration: underline;
+    font-size: 16px!important;
+    font-weight: 500!important;
+}*/
+
+div.calendar-nav {
+    display: flex;
+}
+
+#calendar-html-output .hrms_prev{
+    padding-right: 9px;
+}
+#calendar-html-output .hrms_next{
+    padding-left: 9px;
+}
+#calendar-html-output .week-day-cell li {
+     height: 60px;
+}
+
+/* ------ ------ */
+.calendar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* .form-control{
+    margin-top: 2px;
+} */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 13px;
+}
+.yr_poition .form-control{
+    /* color: #fff; */
+    /* background-color: #007bff;
+    border-color: #007bff; */
+    box-shadow: none;
+    /* padding: 10px 20px; */
+    margin: 0 10px;
+}
+.btn-success {
+    font-size: 14px;
+}
+.week-day-cell li {
+    width: 77px !important;
+}
+#calendar-outer .week-name-title li {
+    padding: 10px 20px!important;
+}
+.dashboard-cl #calendar-outer .week-name-title li {
+    padding: 10px 8px!important;
+    width: 14.2%; text-align:center;
+}
+
+
+.dashboard-cl .week-day-cell li {
+    padding: 10px 8px!important;
+    width: 14.2% !important; text-align:center;
+}
+
+.bootstrap-select .dropdown-menu{   max-width: 392px;
+    min-width: 350px !important; }
+
+.bootstrap-select .dropdown-menu .inner{height:200px;}
+
+/*.dropdown.bootstrap-select > .dropdown-toggle.bs-placeholder {
+    border-bottom: none !important;
+}*/
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+.border-bottom1{border-bottom: 1px solid #ccc!important;}
+.freelancer-dropdown .dropdown-menu {
+    max-width: 390px;
+    min-width: 400x !important;
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1505px){
+    #calendar-outer .week-name-title li {
+        padding: 10px 14px!important;
+    }
+}
+
+/*----- Added By Jayeeta Das || 18-06-2021 -----*/
+.hrms-form-loader { 
+    background: rgba(0,0,0,.4);
+    position: fixed;
+    width: 100%;
+    height: 95.4%;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+}
+.form-loader-div {
+    position: absolute;
+    top: 40%;
+    width: 20%;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border:1px solid #a5acb380;
+    border-radius: 2px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 25px #cbd6e280;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+.form-loader-div h4 {
+    color:#000;
+    font-size: 17px;
+}
+.form-loader-div img {
+    width:20%;
+}
+
+/* Added By Souvik Bhattacharjee 02-07-2021 16:40 PM */
+.attendancet_table.bo-botom tbody td{ border-bottom:1px solid #e1e1e1 !important; }
+
+/* Added By Jayeeta Das || 05-07-2021 18 : 45 PM ( Manual leave form design) */
+.form-figer{
+    padding:0 20px 20px 20px;
+    border: 1px solid #ccc;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.h1-custom-frm {
+    text-align: left;
+    line-height: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+h1 span {
+    background: #fff;
+    padding: 0 15px;
+}
+
+.menu_icon{
+    width:25px !important;
+    padding-right: 5px;
+}
+
+.hrms-nav-img {
+    display:flex;
+    align-items:center;
+}
+
+
+.hrms-nav-img p {
+    padding-left:3px;
+}
+
+.img_upload{
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 158px;
+    height: 158px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.btn-profile {
+    background: rgba(225,225,225,.7);
+    padding: 4px;
+    color: #1278f8;
+    position: absolute;
+    bottom: 15px;
+    left: 12px;
+    width: 158px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    display:none;
+    transition:3s all ease;
+}
+.img_upload:hover .btn-profile{
+    display:block;
+    cursor: pointer;
+}
+
+.black_img{
+    display:none;
+}
+
+.nav-link.active .black_img{
+    display:block;
+}
+
+.nav-link.active .white_img{
+    display:none;
+}
+
+.upload_div {
+    background: rgba(225,225,225,.7);
+    padding: 8px;
+    color: #1278f8;
+    margin: 10px 0;
+}
+
+.best-project-details {
+    padding: 15px;
+    box-shadow: 0 0 13px #ccc;
+    margin-top: 21px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 980px){
+	.wrapper{padding-bottom: 59px;}
+	.content-header {margin-bottom: 20px;}
+	.content-header h1{line-height: 1.2 !important;}
+
+	/*---Requisition Status---*/
+	.table-data-feature i{font-size: 18px;margin-bottom: 10px;}
+	#example1_wrapper .row:nth-child(1) .col-sm-12.col-md-6{flex: 0 0 77%;max-width: 77%;}
+	div.dataTables_wrapper div.dataTables_length select {width: 186px;}
+	div.dataTables_wrapper div.dataTables_filter { float: left;}
+	#example1_filter input{width: 198px;}
+	#example1_paginate{margin: 10px auto;}
+	.footer_total_sec{margin-top: 15px;padding: 6px;}
+	form .row{margin-right: 0 ;margin-left: 0;}
+
+	.pagination li .page-link { padding: 4px .50rem;}
+	.post-search-panel.cstm-skill-filter {  position: relative; right: 0;}
+	.footer_total_sec .col-3 {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+}
+
+.card-footer {
+    background-color: rgb(255 255 255) !important;
+    border-top: none !important;
+}
+
+.datepicker.dropdown-menu {
+    background-color: #fff!important;
+    width: 486px;
+    box-shadow: 1px 1px 10px #7a6f6f;
+    border: 1px solid #bbb7b7;
+}
+
+td.today.day {
+    background: #ebe5e5!important;
+    /* border-radius: 50%; */
+    /* box-shadow: 1px 1px 10px #524b4b; */
+}
